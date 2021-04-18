@@ -29,12 +29,7 @@ const Banner = () => {
           <Box sx={styles.banner.col}>
             <Box sx={styles.banner.content}>
               <Box sx={styles.banner.stars}>
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                Trused by over 4,332 students
+              
               </Box>
               <Heading as="h3">
                 Learn & Innov8<br />

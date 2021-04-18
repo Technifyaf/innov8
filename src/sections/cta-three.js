@@ -58,7 +58,7 @@ const CtaThree = () => {
                  M12K
                 </Heading>
                 <Text as="p">
-                  {'Each successful team gets M12K in pre-seed funding'}
+                  {' M12K in pre-seed funding'}
                 </Text>
               </Box>
             </Grid>

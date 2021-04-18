@@ -7,24 +7,24 @@ import ArrowEven from 'assets/arrow-even.png';
 
 const workflowData = [
   {
-    title: 'Set disbursement Instructions',
+    title: 'Apply as a team of 3 and 1 business idea',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'You can apply as co-founders, parnters or founder and employees all structures are welcome.',
   },
   {
-    title: 'Assembly retrieves funds from your account',
+    title: 'Selection process for 20 teams will begin',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'The workshop is open for only 20 times at a time',
   },
   {
-    title: 'Assembly initiates disbursement',
+    title: '12 week of hustling',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Commit 648 hours as a team and dedicate 3 hours every weekend for a live workshop',
   },
   {
-    title: 'Customer receives funds payment',
+    title: 'Demo day',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Pitch for before potential customers, partners, Investors, and donors.',
   },
 ];
 

@@ -5,38 +5,7 @@ import BlockTitle from 'components/block-title';
 import PriceCard from '../components/price-card';
 
 const pricingMonthlyData = [
-  {
-    name: 'Free Plan',
-    description: 'For Small teams or office',
-    buttonText: 'Start free trail',
-    points: [
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Free acess for all kind of exercise corrections with downloads.',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCloseCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
-        isAvailable: false,
-      },
-      {
-        icon: <IoIosCloseCircle />,
-        text: 'Download and print courses and exercises in PDF',
-        isAvailable: false,
-      },
-    ],
-  },
+ 
   {
     header: 'Recommended',
     name: 'Premium',
@@ -75,54 +44,23 @@ const pricingMonthlyData = [
 ];
 
 const pricingYearlyData = [
-  {
-    name: 'Free Plan',
-    description: 'For Small teams or office',
-    buttonText: 'Start free trail',
-    points: [
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Free acess for all kind of exercise corrections with downloads.',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCloseCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
-        isAvailable: false,
-      },
-      {
-        icon: <IoIosCloseCircle />,
-        text: 'Download and print courses and exercises in PDF',
-        isAvailable: false,
-      },
-    ],
-  },
+ 
   {
     header: 'Recommended',
     name: 'Premium',
     description: 'For startup enterprise',
-    priceWithUnit: '$99.99/',
-    pricePeriod: 'yr',
+    priceWithUnit: 'M5400',
+    pricePeriod: '',
     buttonText: 'Subscribe Now',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: '648 hours of training including assignments and workshops',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Free acess for all kind of exercise corrections with downloads.',
+        text: '12,3 hour workshops every weekend',
         isAvailable: true,
       },
       {
