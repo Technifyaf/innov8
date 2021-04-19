@@ -93,6 +93,182 @@ const popularCourseData = [
       },
     ],
   },
+  {
+    title: 'MVP development',
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 students watched',
+    videoLink: 'L9jU-IIN0ng',
+    starCount: 5,
+    expanded: false,
+    list: [
+      {
+        content: 'How to reduce file pixel dimentions without loosing quality',
+      },
+      {
+        content: 'How to make logo pixel perfects with different extension',
+      },
+      {
+        content: 'Create vector file from restarize layer styles',
+      },
+      {
+        content: 'Make color gradient with photoshop build-in tools',
+      },
+    ],
+  },
+  {
+    title: 'Pitching',
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 students watched',
+    videoLink: 'L9jU-IIN0ng',
+    starCount: 5,
+    expanded: false,
+    list: [
+      {
+        content: 'How to reduce file pixel dimentions without loosing quality',
+      },
+      {
+        content: 'How to make logo pixel perfects with different extension',
+      },
+      {
+        content: 'Create vector file from restarize layer styles',
+      },
+      {
+        content: 'Make color gradient with photoshop build-in tools',
+      },
+    ],
+  },
+  {
+    title: 'Business formalisation',
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 students watched',
+    videoLink: 'L9jU-IIN0ng',
+    starCount: 5,
+    expanded: false,
+    list: [
+      {
+        content: 'How to reduce file pixel dimentions without loosing quality',
+      },
+      {
+        content: 'How to make logo pixel perfects with different extension',
+      },
+      {
+        content: 'Create vector file from restarize layer styles',
+      },
+      {
+        content: 'Make color gradient with photoshop build-in tools',
+      },
+    ],
+  },
+  {
+    title: 'Finance and accounting',
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 students watched',
+    videoLink: 'L9jU-IIN0ng',
+    starCount: 5,
+    expanded: false,
+    list: [
+      {
+        content: 'How to reduce file pixel dimentions without loosing quality',
+      },
+      {
+        content: 'How to make logo pixel perfects with different extension',
+      },
+      {
+        content: 'Create vector file from restarize layer styles',
+      },
+      {
+        content: 'Make color gradient with photoshop build-in tools',
+      },
+    ],
+  },
+  {
+    title: 'Office administration',
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 students watched',
+    videoLink: 'L9jU-IIN0ng',
+    starCount: 5,
+    expanded: false,
+    list: [
+      {
+        content: 'How to reduce file pixel dimentions without loosing quality',
+      },
+      {
+        content: 'How to make logo pixel perfects with different extension',
+      },
+      {
+        content: 'Create vector file from restarize layer styles',
+      },
+      {
+        content: 'Make color gradient with photoshop build-in tools',
+      },
+    ],
+  },
+  {
+    title: 'Business & Competitive Stratetgy',
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 students watched',
+    videoLink: 'L9jU-IIN0ng',
+    starCount: 5,
+    expanded: false,
+    list: [
+      {
+        content: 'How to reduce file pixel dimentions without loosing quality',
+      },
+      {
+        content: 'How to make logo pixel perfects with different extension',
+      },
+      {
+        content: 'Create vector file from restarize layer styles',
+      },
+      {
+        content: 'Make color gradient with photoshop build-in tools',
+      },
+    ],
+  },
+  {
+    title: 'Sales and Marketing',
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 students watched',
+    videoLink: 'L9jU-IIN0ng',
+    starCount: 5,
+    expanded: false,
+    list: [
+      {
+        content: 'How to reduce file pixel dimentions without loosing quality',
+      },
+      {
+        content: 'How to make logo pixel perfects with different extension',
+      },
+      {
+        content: 'Create vector file from restarize layer styles',
+      },
+      {
+        content: 'Make color gradient with photoshop build-in tools',
+      },
+    ],
+  },
+  {
+    title: 'Fund raising',
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 students watched',
+    videoLink: 'L9jU-IIN0ng',
+    starCount: 5,
+    expanded: false,
+    list: [
+      {
+        content: 'How to reduce file pixel dimentions without loosing quality',
+      },
+      {
+        content: 'How to make logo pixel perfects with different extension',
+      },
+      {
+        content: 'Create vector file from restarize layer styles',
+      },
+      {
+        content: 'Make color gradient with photoshop build-in tools',
+      },
+    ],
+  },
 ];
 
 const PopularCourse = () => {
@@ -102,7 +278,7 @@ const PopularCourse = () => {
         <BlockTitle
           sx={styles.popularCourse.blockTitle}
           tagline="Quality features"
-          heading="Popular Designing Course"
+          heading="Our training courses"
         />
         {popularCourseData.map((course, index) => (
           <Box sx={styles.popularCourse.col} key={index}>

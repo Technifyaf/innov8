@@ -37,7 +37,7 @@ export default function Header({ className }) {
           <Link
             path="/"
             ml={2}
-            label="Try for Free"
+            label="Gets started"
             sx={styles.headerBtn}
             variant="buttons.primary"
           />

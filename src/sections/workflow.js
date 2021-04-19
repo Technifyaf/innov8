@@ -17,7 +17,7 @@ const workflowData = [
       'The workshop is open for only 20 times at a time',
   },
   {
-    title: '12 week of hustling',
+    title: '12 week of training',
     text:
       'Commit 648 hours as a team and dedicate 3 hours every weekend for a live workshop',
   },
