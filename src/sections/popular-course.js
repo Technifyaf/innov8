@@ -8,264 +8,279 @@ const popularCourseData = [
     title:
       'Team management',
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '2,538 students watched',
+    watchCount: '0 people watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
     expanded: true,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'Talent Recruitment',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: 'Co-founder relationships and legal agreements',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'Team charter and social contracts',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Team dynamics and conflict management',
+      },
+      {
+        content: 'Team building exercise',
+      },
+      {
+        content: 'Culture development',
       },
     ],
   },
   {
     title: 'Lean startup approach',
     reviewCount: '4.5 (524 reviews)',
-    watchCount: '3,532 students watched',
+    watchCount: '0 people watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 4,
     expanded: false,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'Entrepreneurship',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: 'Mangement',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'Validated Learning',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Innovation Accounting',
+      },
+      {
+        content: 'Build - Measure - Learn',
+      },
+      {
+        content: 'Mid week assigment',
       },
     ],
   },
   {
     title: 'Design thinking',
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 students watched',
+    watchCount: '0 People watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
     expanded: false,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'Empathise - User centred Research ',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: 'Define - Define problem and user personas',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'Ideate - Big idea Generation',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Prototype - Paper proptotype, putting your product on paper',
+      },
+      {
+        content: 'Testing - Engaging potential users iteratively',
       },
     ],
   },
   {
     title: 'Prototyping',
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 students watched',
+    watchCount: '0 People watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
     expanded: false,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'Sketching',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: 'Wireframing',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'Mockups',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Prototype using adobe xd /figma / invision / framer',
       },
     ],
   },
   {
     title: 'MVP development',
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 students watched',
+    watchCount: '0 people watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
     expanded: false,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'No code solutions',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: 'Product roadmapping',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'Agile methodology',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Developer outsourcing',
       },
     ],
   },
   {
     title: 'Pitching',
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 students watched',
+    watchCount: '0 people watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
     expanded: false,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'Investor Pitch deck',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: 'Sales pitch deck',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'Investor and Sales video pitch',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Story telling',
       },
     ],
   },
   {
     title: 'Business formalisation',
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 students watched',
+    watchCount: '0 People watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
     expanded: false,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'Types of businesses',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: 'Formalisation process',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'Shareholding and governance',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Compliance',
       },
     ],
   },
   {
     title: 'Finance and accounting',
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 students watched',
+    watchCount: '0 people watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
     expanded: false,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'Cashflow projections',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: 'Profit and Loss statement',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'Balance sheet',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Unit ecomonics',
       },
     ],
   },
   {
-    title: 'Office administration',
+    title: 'E-Office administration',
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 students watched',
+    watchCount: '0 people watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
     expanded: false,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'Communication tools',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: 'Task management',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'File management',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Cloud backups',
       },
     ],
   },
   {
     title: 'Business & Competitive Stratetgy',
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 students watched',
+    watchCount: '0 people watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
     expanded: false,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'Porters five forces ',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: 'SWOT analysis',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'Competitor matrix',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Blue ocean vs read ocean markets',
       },
     ],
   },
   {
     title: 'Sales and Marketing',
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 students watched',
+    watchCount: '0 people watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
     expanded: false,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'Bussiness model development',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: '4Ps marketing mix',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'Distribution and Marketing channels',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Online Marketing',
       },
     ],
   },
   {
     title: 'Fund raising',
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 students watched',
+    watchCount: '0 people watched',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
     expanded: false,
     list: [
       {
-        content: 'How to reduce file pixel dimentions without loosing quality',
+        content: 'Bootstrapping',
       },
       {
-        content: 'How to make logo pixel perfects with different extension',
+        content: 'Equity financing',
       },
       {
-        content: 'Create vector file from restarize layer styles',
+        content: 'Debt Financing',
       },
       {
-        content: 'Make color gradient with photoshop build-in tools',
+        content: 'Grants and donations ',
       },
     ],
   },
@@ -278,7 +293,7 @@ const PopularCourse = () => {
         <BlockTitle
           sx={styles.popularCourse.blockTitle}
           tagline="Quality features"
-          heading="Our training courses"
+          heading="Our workshops"
         />
         {popularCourseData.map((course, index) => (
           <Box sx={styles.popularCourse.col} key={index}>

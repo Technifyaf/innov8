@@ -23,17 +23,7 @@ const PopularCard = (props) => {
         <Box sx={styles.popularCard.top}>
           <Box sx={styles.popularCard.content}>
             <Box sx={styles.popularCard.meta}>
-              <Box
-                sx={styles.popularCard.stars}
-                className={`starCount-${props.starCount}`}
-              >
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <Text as="span">{props.reviewCount}</Text>
-              </Box>
+             
               <Box sx={styles.popularCard.watch}>
                 <Image src={eyeIcon} alt="" /> {props.watchCount}
               </Box>
@@ -42,8 +32,7 @@ const PopularCard = (props) => {
               <Link path="/" label={props.title} />
             </Heading>
             <Text as="p">
-              Get your tutorials delivered at let home collect sample from the
-              victory of the managments.
+
             </Text>
           </Box>
           <Box sx={styles.popularCard.buttonBox}>
@@ -52,8 +41,8 @@ const PopularCard = (props) => {
               onClick={handleClick}
               varient="buttons.primary"
             >
-              7 Video Classes
-              <Text as="span">4 hrs</Text>
+            Workshop
+              <Text as="span">3 hrs</Text>
             </Button>
             {status === true ? (
               <>
@@ -79,6 +68,18 @@ const PopularCard = (props) => {
     </Box>
   );
 };
+
+/**  <Box
+                sx={styles.popularCard.stars}
+                className={`starCount-${props.starCount}`}
+              >
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <Text as="span">{props.reviewCount}</Text>
+              </Box> */
 
 export default PopularCard;
 const popularListAnim = keyframes`

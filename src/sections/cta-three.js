@@ -47,9 +47,9 @@ const CtaThree = () => {
 							</Box>
 							<Box sx={styles.ctaThree.box}>
 								<Heading sx={styles.ctaThree.color4} as='h3'>
-								$$
+								400+
 								</Heading>
-								<Text as='p'>{' Top performing teams \n get a cash prize '}</Text>
+								<Text as='p'>{' Hours of learning material '}</Text>
 							</Box>
 						</Grid>
 					</Box>

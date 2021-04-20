@@ -23,8 +23,8 @@ export default function IndexPage() {
         <VideoProvider>
           <Layout>
             <SEO
-              description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
-              title="Startup Online Course Landing"
+              description="12 week hands on worshop series on innovation and entrepreneurship"
+              title="Innov8"
             />
             <Banner />
            

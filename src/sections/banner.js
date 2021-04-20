@@ -35,20 +35,17 @@ const Banner = () => {
 								with Technify.
 							</Heading>
 							<Text as='p'>
-								Get your hands dirty, solve problems, make money leave a legacy.
+								Get your hands dirty, solve problems, build innovative businesses.
 							</Text>
 							<Box sx= {styles.banner.signup}>
-              <p> Put a sign up call to action</p>
+              <p> Enroll today</p>
 							<Button sx ={styles.banner.button}>
               Get started
               </Button>
 							</Box>
 
 						
-							<Box sx={styles.banner.partner}>
-								<span>Sponsored by:</span>
-								<Image src={PartnerImage} alt='banner image' />
-							</Box>
+							
 						</Box>
 					</Box>
 					<Box sx={styles.banner.col}>
@@ -66,6 +63,11 @@ const Banner = () => {
 };
 
 export default Banner;
+/*<Box sx={styles.banner.partner}>
+<span>Sponsored by:</span>
+<Image src={PartnerImage} alt='banner image' />
+</Box>
+*/
 
 const styles = {
 	banner: {
