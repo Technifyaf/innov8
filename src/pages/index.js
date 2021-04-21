@@ -33,7 +33,7 @@ export default function IndexPage() {
             <WorkFlow />
             <Pricing />
            
-            <FAQ />
+            <FAQ/>
             <CtaOne />
             <Modal />
           </Layout>

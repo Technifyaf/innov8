@@ -6,61 +6,37 @@ import BlockTitle from 'components/block-title';
 const accordionData = [
   {
     isExpanded: false,
-    title: 'How to contact with riders emergency ?',
+    title: 'Why do I need a team to sign up',
     contents: (
       <div>
-        An FAQ is a list of frequently asked questions (FAQs) and answers on a
-        particular topic (also known as Questions and Answers [Q&A] or
-        Frequently Asked Questions). The format is often used in articles,
-        websites, email lists, and online forums where common questions tend to
-        recur, for example through posts or queries by new users related to
-        common knowledge gaps. The purpose of an FAQ is generally provide
-        information.
+       You a need a team inorder to share labour, work collabortively with complementary skillsets. 
       </div>
     ),
   },
   {
     isExpanded: true,
-    title: 'App installation failed, how to update system information?',
+    title: 'What skills should be included in my team',
     contents: (
       <div>
-        An FAQ is a list of frequently asked questions (FAQs) and answers on a
-        particular topic (also known as Questions and Answers [Q&A] or
-        Frequently Asked Questions). The format is often used in articles,
-        websites, email lists, and online forums where common questions tend to
-        recur, for example through posts or queries by new users related to
-        common knowledge gaps. The purpose of an FAQ is generally provide
-        information.
+        Have a technical member who be respnsible for coding. Have an accountant who will do the numbers. Have a leader/ project manager who will do everything else and understands the problem fully.
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: 'Website reponse taking time, how to improve?',
+    title: 'Is there funding at the end',
     contents: (
       <div>
-        An FAQ is a list of frequently asked questions (FAQs) and answers on a
-        particular topic (also known as Questions and Answers [Q&A] or
-        Frequently Asked Questions). The format is often used in articles,
-        websites, email lists, and online forums where common questions tend to
-        recur, for example through posts or queries by new users related to
-        common knowledge gaps. The purpose of an FAQ is generally provide
-        information.
+        Cash prizes will be awarded to best performing teams on Demo Day.
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: 'New update fixed all bug and issues',
+    title: 'Will there be post programe support for my business after the programe',
     contents: (
       <div>
-        An FAQ is a list of frequently asked questions (FAQs) and answers on a
-        particular topic (also known as Questions and Answers [Q&A] or
-        Frequently Asked Questions). The format is often used in articles,
-        websites, email lists, and online forums where common questions tend to
-        recur, for example through posts or queries by new users related to
-        common knowledge gaps. The purpose of an FAQ is generally provide
-        information.
+       Yes , you will get a discounted consultation service from Technify.
       </div>
     ),
   },

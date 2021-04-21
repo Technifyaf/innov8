@@ -5,7 +5,7 @@ export default [
   },
   {
     path: 'courses',
-    label: 'Courses',
+    label: 'Workshops',
   },
   {
     path: 'pricing',

@@ -24,9 +24,7 @@ const PopularCard = (props) => {
           <Box sx={styles.popularCard.content}>
             <Box sx={styles.popularCard.meta}>
              
-              <Box sx={styles.popularCard.watch}>
-                <Image src={eyeIcon} alt="" /> {props.watchCount}
-              </Box>
+              
             </Box>
             <Heading as="h3">
               <Link path="/" label={props.title} />

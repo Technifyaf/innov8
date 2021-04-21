@@ -2,97 +2,65 @@ export default [
   {
     header: 'About Us',
     items: [
+      
       {
         path: '/',
-        label: 'Support Center',
+        label: 'Innov8',
       },
       {
         path: '/',
-        label: 'Customer Support',
-      },
-      {
-        path: '/',
-        label: 'About Us',
-      },
-      {
-        path: '/',
-        label: 'Copyright',
-      },
-      {
-        path: '/',
-        label: 'Popular Campaign',
+        label: 'Technify',
       },
     ],
   },
   {
-    header: 'Our Information',
+    header: 'Social media',
     items: [
       {
         path: '/',
-        label: 'Return Policy',
+        label: 'Facebook',
       },
       {
         path: '/',
-        label: 'Privacy Policy',
+        label: 'Instagram',
       },
       {
         path: '/',
-        label: 'Terms & Conditions',
+        label: 'Twitter',
       },
-      {
-        path: '/',
-        label: 'Site Map',
-      },
-      {
-        path: '/',
-        label: 'Store Hours',
-      },
+     
     ],
   },
   {
-    header: 'My Account',
+    header: 'Resources',
     items: [
       {
         path: '/',
-        label: 'Press inquiries',
+        label: 'Books',
       },
       {
         path: '/',
-        label: 'Social media ',
+        label: 'Videos',
       },
       {
         path: '/',
-        label: 'directories',
+        label: 'Articles',
       },
-      {
-        path: '/',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '/',
-        label: 'Permissions',
-      },
+     
     ],
   },
   {
-    header: 'Policy',
+    header: 'Philosophy',
     items: [
       {
         path: '/',
-        label: 'Application security',
+        label: 'Lean startup',
       },
       {
         path: '/',
-        label: 'Software principles ',
+        label: 'Life is a pitch ',
       },
-      {
-        path: '/',
-        label: 'Unwanted software policy',
-      },
-      {
-        path: '/',
-        label: 'Responsible supply chain',
-      },
+     
     ],
   },
 ];

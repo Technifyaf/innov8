@@ -33,15 +33,15 @@ export default function Header({ className }) {
               </ScrollLink>
             ))}
           </Flex>
-
+          <a href = 'https://forms.gle/xU57PXqBepjCNtBTA'>
           <Link
-            path="/"
+            path="https://forms.gle/xU57PXqBepjCNtBTA"
             ml={2}
             label="Gets started"
             sx={styles.headerBtn}
             variant="buttons.primary"
           />
-
+</a>
           <MobileDrawer />
         </Container>
       </header>

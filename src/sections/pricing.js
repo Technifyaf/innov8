@@ -46,36 +46,36 @@ const pricingMonthlyData = [
 const pricingYearlyData = [
  
   {
-    header: 'Recommended',
-    name: 'Premium',
-    description: 'For startup enterprise',
-    priceWithUnit: 'M5400',
+    header: 'Pricing',
+    name: '12 Workshop series',
+    description: 'For a team of 3',
+    priceWithUnit: 'M3600',
     pricePeriod: '',
-    buttonText: 'Subscribe Now',
+    buttonText: 'Enroll your team now',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: '648 hours of training including assignments and workshops',
+        text: '12 Workshops, 3hours each on weekends',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: '12,3 hour workshops every weekend',
+        text: '216 hours of training from workshops to midweed assignments',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Save M20,400 of consultation ',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Build-as-you-Learn',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Working prototype, solid pitch deck, polished and recorded pitch, formalized business',
         isAvailable: true,
       },
     ],
@@ -90,42 +90,17 @@ const Pricing = () => {
         <BlockTitle
           sx={styles.pricing.blockTitle}
           tagline="Pricing Plan"
-          heading="Choose your pricing policy"
+          heading="Our going price"
         />
-        <Box sx={styles.pricing.btnWrap}>
-          <Box as="ul" sx={styles.pricing.btnUl}>
-            <Box
-              as="li"
-              className={` ${plan === false ? 'active' : ''}`}
-              variant="buttons.primary"
-              sx={styles.pricing.btn}
-              onClick={() => {
-                setPlan(false);
-              }}
-            >
-              Monthly Plan
-            </Box>
-            <Box
-              as="li"
-              className={` ${plan === true ? 'active' : ''}`}
-              variant="buttons.primary"
-              sx={styles.pricing.btn}
-              onClick={() => {
-                setPlan(true);
-              }}
-            >
-              Annual Plan
-            </Box>
-          </Box>
-        </Box>
+        
 
         <Grid sx={styles.pricing.wrapper}>
-          {plan === true
+          {plan === false
             ? pricingYearlyData.map((price, index) => (
                 <PriceCard key={index} data={price} />
               ))
             : null}
-          {plan === false
+          {plan === true
             ? pricingMonthlyData.map((price, index) => (
                 <PriceCard key={index} data={price} />
               ))
@@ -162,6 +137,7 @@ const styles = {
     },
     blockTitle: {
       textAlign: 'center',
+      paddingBottom: 60,
     },
     btnWrap: {
       display: 'flex',

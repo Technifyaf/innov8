@@ -37,7 +37,6 @@ export default function PriceCard({
           </Box>
           {header ? (
             <Text className="package__price" sx={styles.price}>
-              <span>Starting from</span>
               <div className="price">
                 {priceWithUnit}
                 <sub>{pricePeriod}</sub>
