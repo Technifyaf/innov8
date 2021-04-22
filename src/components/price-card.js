@@ -54,9 +54,11 @@ export default function PriceCard({
             },
           }}
         >
+           <a href = 'https://forms.gle/xU57PXqBepjCNtBTA'>
           <Button variant="buttons.primary" sx={styles.button}>
             {buttonText}
           </Button>
+          </a>
         </Box>
       </Box>
     </Card>

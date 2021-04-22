@@ -12,6 +12,7 @@ export default function Footer() {
           <Box key={i} sx={styles.footer.widget}>
             <Heading sx={styles.footer.title}>{header}</Heading>
             {items.map(({ path, label }, i) => (
+              <a href = {path} sx ={styles.link}>
               <Link
                 sx={styles.footer.text}
                 path={path}
@@ -19,6 +20,7 @@ export default function Footer() {
                 label={label}
                 variant="footer"
               />
+              </a>
             ))}
           </Box>
         ))}
@@ -80,4 +82,8 @@ const styles = {
       cursor: 'pointer',
     },
   },
+  link :{
+    textDecoration : 'none',
+    color : 'black'
+  }
 };

@@ -39,9 +39,11 @@ const Banner = () => {
 							</Text>
 							<Box sx= {styles.banner.signup}>
               <p> Enroll today</p>
+			  <a href = 'https://forms.gle/xU57PXqBepjCNtBTA'>
 							<Button sx ={styles.banner.button}>
               Get started
               </Button>
+			  </a>
 							</Box>
 
 						

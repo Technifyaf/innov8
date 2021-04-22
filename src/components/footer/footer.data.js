@@ -1,15 +1,15 @@
 export default [
   {
-    header: 'About Us',
+    header: 'Legal',
     items: [
       
       {
         path: '/',
-        label: 'Innov8',
+        label: 'Policy',
       },
       {
         path: '/',
-        label: 'Technify',
+        label: 'Terms and conditions',
       },
     ],
   },
@@ -17,17 +17,10 @@ export default [
     header: 'Social media',
     items: [
       {
-        path: '/',
+        path: 'https://web.facebook.com/innov8withtechnify',
         label: 'Facebook',
       },
-      {
-        path: '/',
-        label: 'Instagram',
-      },
-      {
-        path: '/',
-        label: 'Twitter',
-      },
+     
      
     ],
   },
@@ -35,17 +28,10 @@ export default [
     header: 'Resources',
     items: [
       {
-        path: '/',
-        label: 'Books',
+        path: '',
+        label: 'Information bank',
       },
-      {
-        path: '/',
-        label: 'Videos',
-      },
-      {
-        path: '/',
-        label: 'Articles',
-      },
+      
      
     ],
   },
@@ -53,13 +39,10 @@ export default [
     header: 'Philosophy',
     items: [
       {
-        path: '/',
+        path: 'http://theleanstartup.com/',
         label: 'Lean startup',
       },
-      {
-        path: '/',
-        label: 'Life is a pitch ',
-      },
+      
      
     ],
   },

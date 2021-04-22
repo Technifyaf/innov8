@@ -7,12 +7,14 @@ const CtaOne = () => {
     <Box as="section" sx={styles.ctaBox}>
       <Container>
         <Heading as="h3">{'Ready to Innov8'}</Heading>
+        <a href = 'https://forms.gle/xU57PXqBepjCNtBTA'>
         <Link
           path="#"
           label="Enroll Today"
           sx={styles.ctaBox.button}
           variant="buttons.primary"
         />
+        </a>
       </Container>
     </Box>
   );
